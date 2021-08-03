@@ -13,6 +13,7 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
    'Lesson_6.pipelines.DataBasePipeline': 1,
    'Lesson_6.pipelines.LeruaPhotosPipeline': 1,
+   'Lesson_6.pipelines.CSVPipeline': 1,
 }
 
 FILES_STORE = r'downloaded'
